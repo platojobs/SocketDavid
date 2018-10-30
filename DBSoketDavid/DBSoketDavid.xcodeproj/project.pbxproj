@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0B98865FE62107ED9053D1 /* libPods-DBSoketDavid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9808D113064B7F3FAB98A45A /* libPods-DBSoketDavid.a */; };
+		ABF26ACC21831F9D007E3459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26ACB21831F9D007E3459 /* AppDelegate.m */; };
+		ABF26ACF21831F9D007E3459 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26ACE21831F9D007E3459 /* ViewController.m */; };
+		ABF26AD221831F9D007E3459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF26AD021831F9D007E3459 /* Main.storyboard */; };
+		ABF26AD421831FA8007E3459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF26AD321831FA8007E3459 /* Assets.xcassets */; };
+		ABF26AD721831FA8007E3459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF26AD521831FA8007E3459 /* LaunchScreen.storyboard */; };
+		ABF26ADA21831FA8007E3459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26AD921831FA8007E3459 /* main.m */; };
+		ABF26AE421831FA8007E3459 /* DBSoketDavidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26AE321831FA8007E3459 /* DBSoketDavidTests.m */; };
+		ABF26AEF21831FA8007E3459 /* DBSoketDavidUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26AEE21831FA8007E3459 /* DBSoketDavidUITests.m */; };
+		ABF26AFE21831FDF007E3459 /* DBSoket_DavManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26AFD21831FDF007E3459 /* DBSoket_DavManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF26AE021831FA8007E3459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF26ABF21831F9D007E3459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF26AC621831F9D007E3459;
+			remoteInfo = DBSoketDavid;
+		};
+		ABF26AEB21831FA8007E3459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF26ABF21831F9D007E3459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF26AC621831F9D007E3459;
+			remoteInfo = DBSoketDavid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9808D113064B7F3FAB98A45A /* libPods-DBSoketDavid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DBSoketDavid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF26AC721831F9D007E3459 /* DBSoketDavid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBSoketDavid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF26ACA21831F9D007E3459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF26ACB21831F9D007E3459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF26ACD21831F9D007E3459 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABF26ACE21831F9D007E3459 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABF26AD121831F9D007E3459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF26AD321831FA8007E3459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF26AD621831FA8007E3459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF26AD821831FA8007E3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF26AD921831FA8007E3459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF26ADF21831FA8007E3459 /* DBSoketDavidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBSoketDavidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF26AE321831FA8007E3459 /* DBSoketDavidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBSoketDavidTests.m; sourceTree = "<group>"; };
+		ABF26AE521831FA8007E3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF26AEA21831FA8007E3459 /* DBSoketDavidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBSoketDavidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF26AEE21831FA8007E3459 /* DBSoketDavidUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBSoketDavidUITests.m; sourceTree = "<group>"; };
+		ABF26AF021831FA8007E3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF26AFC21831FDF007E3459 /* DBSoket_DavManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBSoket_DavManager.h; sourceTree = "<group>"; };
+		ABF26AFD21831FDF007E3459 /* DBSoket_DavManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBSoket_DavManager.m; sourceTree = "<group>"; };
+		B8ED9C489A43DE8C82BD2E5E /* Pods-DBSoketDavid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSoketDavid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBSoketDavid/Pods-DBSoketDavid.debug.xcconfig"; sourceTree = "<group>"; };
+		D91574B340B668157704D0F9 /* Pods-DBSoketDavid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSoketDavid.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBSoketDavid/Pods-DBSoketDavid.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF26AC421831F9D007E3459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0B98865FE62107ED9053D1 /* libPods-DBSoketDavid.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26ADC21831FA8007E3459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26AE721831FA8007E3459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75DD4777DB8130887329512D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8ED9C489A43DE8C82BD2E5E /* Pods-DBSoketDavid.debug.xcconfig */,
+				D91574B340B668157704D0F9 /* Pods-DBSoketDavid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABF26ABE21831F9D007E3459 = {
+			isa = PBXGroup;
+			children = (
+				ABF26AC921831F9D007E3459 /* DBSoketDavid */,
+				ABF26AE221831FA8007E3459 /* DBSoketDavidTests */,
+				ABF26AED21831FA8007E3459 /* DBSoketDavidUITests */,
+				ABF26AC821831F9D007E3459 /* Products */,
+				75DD4777DB8130887329512D /* Pods */,
+				F72B7FD9BBE2B140A27A9F5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF26AC821831F9D007E3459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26AC721831F9D007E3459 /* DBSoketDavid.app */,
+				ABF26ADF21831FA8007E3459 /* DBSoketDavidTests.xctest */,
+				ABF26AEA21831FA8007E3459 /* DBSoketDavidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF26AC921831F9D007E3459 /* DBSoketDavid */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26ACA21831F9D007E3459 /* AppDelegate.h */,
+				ABF26ACB21831F9D007E3459 /* AppDelegate.m */,
+				ABF26ACD21831F9D007E3459 /* ViewController.h */,
+				ABF26ACE21831F9D007E3459 /* ViewController.m */,
+				ABF26AFC21831FDF007E3459 /* DBSoket_DavManager.h */,
+				ABF26AFD21831FDF007E3459 /* DBSoket_DavManager.m */,
+				ABF26AD021831F9D007E3459 /* Main.storyboard */,
+				ABF26AD321831FA8007E3459 /* Assets.xcassets */,
+				ABF26AD521831FA8007E3459 /* LaunchScreen.storyboard */,
+				ABF26AD821831FA8007E3459 /* Info.plist */,
+				ABF26AD921831FA8007E3459 /* main.m */,
+			);
+			path = DBSoketDavid;
+			sourceTree = "<group>";
+		};
+		ABF26AE221831FA8007E3459 /* DBSoketDavidTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26AE321831FA8007E3459 /* DBSoketDavidTests.m */,
+				ABF26AE521831FA8007E3459 /* Info.plist */,
+			);
+			path = DBSoketDavidTests;
+			sourceTree = "<group>";
+		};
+		ABF26AED21831FA8007E3459 /* DBSoketDavidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26AEE21831FA8007E3459 /* DBSoketDavidUITests.m */,
+				ABF26AF021831FA8007E3459 /* Info.plist */,
+			);
+			path = DBSoketDavidUITests;
+			sourceTree = "<group>";
+		};
+		F72B7FD9BBE2B140A27A9F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9808D113064B7F3FAB98A45A /* libPods-DBSoketDavid.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF26AC621831F9D007E3459 /* DBSoketDavid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF26AF321831FA8007E3459 /* Build configuration list for PBXNativeTarget "DBSoketDavid" */;
+			buildPhases = (
+				5BA8BD44B14BB14C1B0AFD0C /* [CP] Check Pods Manifest.lock */,
+				ABF26AC321831F9D007E3459 /* Sources */,
+				ABF26AC421831F9D007E3459 /* Frameworks */,
+				ABF26AC521831F9D007E3459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBSoketDavid;
+			productName = DBSoketDavid;
+			productReference = ABF26AC721831F9D007E3459 /* DBSoketDavid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF26ADE21831FA8007E3459 /* DBSoketDavidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF26AF621831FA8007E3459 /* Build configuration list for PBXNativeTarget "DBSoketDavidTests" */;
+			buildPhases = (
+				ABF26ADB21831FA8007E3459 /* Sources */,
+				ABF26ADC21831FA8007E3459 /* Frameworks */,
+				ABF26ADD21831FA8007E3459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF26AE121831FA8007E3459 /* PBXTargetDependency */,
+			);
+			name = DBSoketDavidTests;
+			productName = DBSoketDavidTests;
+			productReference = ABF26ADF21831FA8007E3459 /* DBSoketDavidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABF26AE921831FA8007E3459 /* DBSoketDavidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF26AF921831FA8007E3459 /* Build configuration list for PBXNativeTarget "DBSoketDavidUITests" */;
+			buildPhases = (
+				ABF26AE621831FA8007E3459 /* Sources */,
+				ABF26AE721831FA8007E3459 /* Frameworks */,
+				ABF26AE821831FA8007E3459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF26AEC21831FA8007E3459 /* PBXTargetDependency */,
+			);
+			name = DBSoketDavidUITests;
+			productName = DBSoketDavidUITests;
+			productReference = ABF26AEA21831FA8007E3459 /* DBSoketDavidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF26ABF21831F9D007E3459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "崔曦";
+				TargetAttributes = {
+					ABF26AC621831F9D007E3459 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ABF26ADE21831FA8007E3459 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ABF26AC621831F9D007E3459;
+					};
+					ABF26AE921831FA8007E3459 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ABF26AC621831F9D007E3459;
+					};
+				};
+			};
+			buildConfigurationList = ABF26AC221831F9D007E3459 /* Build configuration list for PBXProject "DBSoketDavid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF26ABE21831F9D007E3459;
+			productRefGroup = ABF26AC821831F9D007E3459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF26AC621831F9D007E3459 /* DBSoketDavid */,
+				ABF26ADE21831FA8007E3459 /* DBSoketDavidTests */,
+				ABF26AE921831FA8007E3459 /* DBSoketDavidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF26AC521831F9D007E3459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF26AD721831FA8007E3459 /* LaunchScreen.storyboard in Resources */,
+				ABF26AD421831FA8007E3459 /* Assets.xcassets in Resources */,
+				ABF26AD221831F9D007E3459 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26ADD21831FA8007E3459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26AE821831FA8007E3459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BA8BD44B14BB14C1B0AFD0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DBSoketDavid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF26AC321831F9D007E3459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF26AFE21831FDF007E3459 /* DBSoket_DavManager.m in Sources */,
+				ABF26ACF21831F9D007E3459 /* ViewController.m in Sources */,
+				ABF26ADA21831FA8007E3459 /* main.m in Sources */,
+				ABF26ACC21831F9D007E3459 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26ADB21831FA8007E3459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF26AE421831FA8007E3459 /* DBSoketDavidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26AE621831FA8007E3459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF26AEF21831FA8007E3459 /* DBSoketDavidUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF26AE121831FA8007E3459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF26AC621831F9D007E3459 /* DBSoketDavid */;
+			targetProxy = ABF26AE021831FA8007E3459 /* PBXContainerItemProxy */;
+		};
+		ABF26AEC21831FA8007E3459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF26AC621831F9D007E3459 /* DBSoketDavid */;
+			targetProxy = ABF26AEB21831FA8007E3459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF26AD021831F9D007E3459 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF26AD121831F9D007E3459 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF26AD521831FA8007E3459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF26AD621831FA8007E3459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF26AF121831FA8007E3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABF26AF221831FA8007E3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF26AF421831FA8007E3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8ED9C489A43DE8C82BD2E5E /* Pods-DBSoketDavid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DBSoketDavid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.DBSoketDavid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF26AF521831FA8007E3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D91574B340B668157704D0F9 /* Pods-DBSoketDavid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DBSoketDavid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.DBSoketDavid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABF26AF721831FA8007E3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DBSoketDavidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.DBSoketDavidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBSoketDavid.app/DBSoketDavid";
+			};
+			name = Debug;
+		};
+		ABF26AF821831FA8007E3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DBSoketDavidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.DBSoketDavidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBSoketDavid.app/DBSoketDavid";
+			};
+			name = Release;
+		};
+		ABF26AFA21831FA8007E3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DBSoketDavidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.DBSoketDavidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DBSoketDavid;
+			};
+			name = Debug;
+		};
+		ABF26AFB21831FA8007E3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DBSoketDavidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.DBSoketDavidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DBSoketDavid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF26AC221831F9D007E3459 /* Build configuration list for PBXProject "DBSoketDavid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF26AF121831FA8007E3459 /* Debug */,
+				ABF26AF221831FA8007E3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF26AF321831FA8007E3459 /* Build configuration list for PBXNativeTarget "DBSoketDavid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF26AF421831FA8007E3459 /* Debug */,
+				ABF26AF521831FA8007E3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF26AF621831FA8007E3459 /* Build configuration list for PBXNativeTarget "DBSoketDavidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF26AF721831FA8007E3459 /* Debug */,
+				ABF26AF821831FA8007E3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF26AF921831FA8007E3459 /* Build configuration list for PBXNativeTarget "DBSoketDavidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF26AFA21831FA8007E3459 /* Debug */,
+				ABF26AFB21831FA8007E3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF26ABF21831F9D007E3459 /* Project object */;
+}
